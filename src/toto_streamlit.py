@@ -1,6 +1,17 @@
 import streamlit as st
 from fibonacci import Fibonacci
 
+st.markdown(
+	"""
+	<style>
+	.stApp {
+		background-color: #dbeafe;
+	}
+	</style>
+	""",
+	unsafe_allow_html=True,
+)
+
 fibonacci = Fibonacci()
 fibbo = Fibonacci().fibbo
 
