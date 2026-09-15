@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: tp-ia-2
+Version: 0.1.0
+Summary: Projet Python dans devcontainer
+Requires-Python: >=3.11
+Requires-Dist: numpy>=2.4.6
