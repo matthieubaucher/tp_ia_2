@@ -9,4 +9,11 @@ description = "Projet Python dans devcontainer"
 requires-python = ">=3.11"
 dependencies = [
     "numpy>=2.4.6",
+    "pytest>=9.1.1",
 ]
+
+[tool.setuptools.packages]
+find = { where = ["src"] }
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

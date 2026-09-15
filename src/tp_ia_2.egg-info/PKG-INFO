@@ -4,3 +4,4 @@ Version: 0.1.0
 Summary: Projet Python dans devcontainer
 Requires-Python: >=3.11
 Requires-Dist: numpy>=2.4.6
+Requires-Dist: pytest>=9.1.1
